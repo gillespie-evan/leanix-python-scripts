@@ -80,6 +80,8 @@ def getRelations():
       print("ITC ID:" + row['node']['id'])
       print(row['node']['relITComponentToApplication'])
       print("\n")
+  
+"""  
   apps = {}
   for row in response['data']['allFactSheets']['edges']:
     appId = appNode['node']['id']
@@ -89,3 +91,4 @@ def getRelations():
       itcId = relationNode['node']['factSheet']['id']
       apps[appId][itcId] = relationId
   return apps
+"""
